@@ -277,4 +277,4 @@ class BaseMultiObjectTracker(BaseModule, metaclass=ABCMeta):
             out_file=out_file,
             wait_time=wait_time,
             backend=backend)
-        return img
+        return img, outs_track
