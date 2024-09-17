@@ -1,0 +1,13 @@
+bounding_boxes:
+  - box_name: "ATM"
+    accept_threshold: 3 #seconds
+    x_start: 9
+    y_start: 100
+    x_stop: 154
+    y_stop: 306
+  - box_name: "Sample Area"
+    accept_threshold: 3 #seconds
+    x_start: 100
+    y_start: 150
+    x_stop: 200
+    y_stop: 250
